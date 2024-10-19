@@ -20,7 +20,7 @@ class ContactController extends Controller
     public function send(Request $request)
     {
         try {
-            Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->message));
+            Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->message, $request->name, $request->email));
 
 
             $contact = new Contact();
