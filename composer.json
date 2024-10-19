@@ -1,0 +1,19 @@
+{
+    "name": "lopzy/contact",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lopzy\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "premod",
+            "email": "premodsuraweera1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
