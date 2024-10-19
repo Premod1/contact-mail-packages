@@ -15,5 +15,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true,
+    "require": {
+        "lopzy/contact": "dev-main"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lopzy\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
 }
