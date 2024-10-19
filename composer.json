@@ -16,9 +16,7 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-        "lopzy/contact": "dev-main"
-    },
+    "require": {},
     "extra": {
         "laravel": {
             "providers": [
